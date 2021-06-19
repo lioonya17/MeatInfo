@@ -1,0 +1,65 @@
+.areas {
+    padding: 80px 0;
+    background-color: $bg;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 1024px) {
+            flex-direction: column;
+        }
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    &__right {
+
+        img {
+            display: block;
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__text {
+        font-size: 28px;
+        line-height: 34px;
+        color: $white;
+
+        @media (max-width: 1024px) {
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 24px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 20px;
+        }
+    }
+
+    &__company {
+        @media (max-width: 1024px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__co {
+        font-size: 18px;
+        color: $white;
+        margin-bottom: 16px;
+    }
+
+    &__email {
+        font-size: 18px;
+        color: rgba($white, .27);
+    }
+}

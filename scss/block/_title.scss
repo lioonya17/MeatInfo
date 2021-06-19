@@ -1,0 +1,39 @@
+.title {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 31px;
+
+    &-bl {
+        color: $black;
+    }
+    &-w {
+        color: $white;
+    }
+
+    @media (max-width: 650px) {
+        font-size: 40px;
+    }
+
+    @media (max-width: 460px) {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+.subtitle {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    &-bl {
+        color: $black;
+    }
+    &-w {
+        color: $white;
+    }
+
+    @media (max-width: 650px) {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

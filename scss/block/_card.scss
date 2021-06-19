@@ -1,0 +1,21 @@
+.card {
+    &__img {
+        padding-bottom: 40px;
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    &__title {
+        font-size: 18px;
+        color: $black;
+        margin-bottom: 14px;
+    }
+
+    &_text {
+        color: $black;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,23 @@
+.faq {
+    padding: 80px 0;
+    background-color: $black;
+
+    &__title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        color: $white;
+        margin-bottom: 45px;
+
+        @media (max-width: 1024px) {
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+
+    &__accordeon {
+        max-width: 900px;
+        margin: 0 auto;
+        position: relative;
+    }
+}

@@ -1,0 +1,98 @@
+.price {
+    padding: 80px 0;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+
+    &__header {
+        margin-bottom: 60px;
+    }
+
+    &__title {
+        font-size: 40px;
+        color: $black;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        font-size: 22px;
+        color: $black;
+        line-height: 26px;
+    }
+
+    &__form ul li {
+        margin-bottom: 15px;
+    }
+
+    &__lbl {
+        padding-left: 15px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    &__table {
+        font-size: 18px;
+        color: $black;
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+
+        th {
+            padding-bottom: 72px;
+            text-align: left;
+        }
+
+        td {
+            border-bottom: 1px solid #ebebeb;
+            padding: 12px 0;
+
+            &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                text-align: center;
+            }
+        }
+
+        caption {
+            text-align-last: left;
+            caption-side: top;
+            font-size: 12px;
+            color: rgba($black, .5);
+        }
+    }
+
+    &__plan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__name {
+        font-size: 22px;
+        color: $black;
+        margin-bottom: 21px;
+    }
+
+    &__value {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    &__valute {
+        font-size: 12px;
+        color: $black;
+        line-height: 12px;
+        margin-right: 3px;
+    }
+
+    &__number {
+        font-size: 32px;
+        color: $black;
+    }
+
+    &__rate {
+        font-size: 12px;
+        color: $black;
+    }
+}

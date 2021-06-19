@@ -1,0 +1,38 @@
+.nav {
+    &__link {
+        color: $white;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 28px;
+        position: relative;
+
+        @media (max-width: 1024px) {
+            font-size: 40px;
+            margin: 0;
+            padding: 30px;
+            border-bottom: 1px solid rgba(#cacaca, .3);
+        }
+
+        @media (max-width: 460px) {
+            font-size: 30px;
+        }
+    }
+}
+
+.nav__link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: $white;
+    transition: width .2s linear;
+}
+
+.nav__link:hover {
+    &::after{
+        width: 100%;
+    }
+}

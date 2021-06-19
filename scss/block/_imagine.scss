@@ -1,0 +1,13 @@
+.imagine {
+    padding: 125px 0;
+    background: url('/img/pianino.png') 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+
+    @media (max-width: 768px) {
+        padding: 100px 0; 
+    }
+}
